@@ -1,0 +1,80 @@
+.food-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds space between items */
+    justify-content: center;
+  }
+  
+  .food-item {
+    margin: 20px; /* Space around each item */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 280px; /* Adjust width as needed */
+    text-align: center;
+  }
+  
+  .food-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .food-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .food-item p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .food-item .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #28a745;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .quantity-control button {
+    border: none;
+    padding: 6px 12px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white !important;
+    transition: background 0.3s ease;
+  }
+  
+  .quantity-control .plus-btn {
+    background-color: #28a745 !important; /* green */
+  }
+  
+  .quantity-control .plus-btn:hover {
+    background-color: #218838 !important;
+  }
+  
+  .quantity-control .minus-btn {
+    background-color: #dc3545 !important; /* red */
+  }
+  
+  .quantity-control .minus-btn:hover {
+    background-color: #c82333 !important;
+  }
+  
+  .quantity-control span {
+    font-size: 16px;
+    min-width: 20px;
+    text-align: center;
+  }
